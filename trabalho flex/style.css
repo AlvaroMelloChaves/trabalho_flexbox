@@ -1,0 +1,108 @@
+body{
+margin: 0%;
+}
+
+.container{
+flex-direction: column;
+}
+
+.cima{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+}
+
+.redondo{
+    border-radius: 100%;
+    background-color: rgb(153, 161, 161);
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    text-align: center;
+    padding: 7px;
+    margin-right: 3px;
+}
+
+.redondo2{
+    border-radius: 100%;
+    background-color: rgb(153, 161, 161);
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    text-align: center;
+    padding: 7px;
+    margin-right: 3px;
+
+    }
+.redondo3{
+    border-radius: 100%;
+    background-color: rgb(153, 161, 161);;
+    width: 20px;
+    height: 20px;
+    flex-direction: row;
+    text-align: center;
+    padding: 7px;
+}
+
+.cabecalho{
+align-items: center;
+justify-content: center;
+display: flex;
+height: 10%;
+background-color: indigo;
+padding: 20px;
+color: aliceblue;
+}
+
+.pagina{
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+width: 100%;
+flex-grow: 1;
+flex-wrap: wrap;
+height: 200px;
+
+}
+
+.parte1{
+display: flex;
+flex-grow: 8;
+background-color: rgb(205, 151, 255);
+flex-wrap: wrap;
+justify-content: center;
+padding: 10px;
+}
+
+.parte2{
+    display: flex;
+    background-color: rgb(255, 253, 250);
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.parte3{
+    display: flex;
+    background-color: rgb(182, 176, 176);
+    padding: 10px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    justify-content: center;
+    
+}
+
+.rodape{
+    display: flex;
+height: 100%;
+width: 100%;
+align-items: center;
+justify-content: center;
+background-color: #000000;
+flex-wrap: wrap;
+padding: 20px;
+color: aliceblue;
+
+}
